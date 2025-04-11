@@ -1,70 +1,48 @@
-<h3 align="center">CAHIER DES CHARGES</h3>
-<h6 align="center">
-Ce document présente les spécifications de l'application web SantéIA, qui évalue la santé mentale et physique des utilisateurs grâce à des questionnaires générés par IA. L'application offrira une expérience utilisateur moderne, sécurisée et efficace, répondant aux besoins croissants en matière de santé.
-</h6>
+# 🧠 SantéIA - Cahier des charges
 
----
+> Ce document présente les spécifications de l'application web <strong>SantéIA</strong>, conçue pour évaluer la santé mentale et physique des utilisateurs via des questionnaires générés par IA. L'application vise une expérience utilisateur moderne, sécurisée et efficace.
 
-<h4 align="center">Détails du projet</h4>
-<table align="center">
-  <tr>
-    <th>Description</th>
-    <th>Détails</th>
-  </tr>
-  <tr>
-    <td>Developpeur</td>
-    <td>OSSAMA ETTAQAFI</td>
-  </tr>
-  <tr>
-    <td>Langage</td>
-    <td>Français</td>
-  </tr>
-  <tr>
-    <td>Capture d'écran de l'application</td>
-    <td align="center">
-      <a href="https://drive.google.com/drive/folders/1aLBFt5UoC0-DMdON78erqGXDo01XEbpL?usp=sharing" target="_blank">
-        <img src="https://www.gstatic.com/images/icons/material/product/2x/drive_48dp.png" alt="Google Drive d'Ossama" width="30" title="Voir les captures d'écran de l'interface">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>Outils</td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=react,flask,mongodb" alt="React, Flask, MongoDB" height="30"/>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" height="30" alt="Google Gemini" />
-    </td>
-  </tr>
-  <tr>
-    <td>Date de développement</td>
-    <td>11/04/2024 - 19/05/2024</td>
-  </tr>
-</table>
+## 📋 Détails du projet
 
----
+| **Description**               | **Détails**                                 |
+|------------------------------|---------------------------------------------|
+| 👨‍💻 Développeur               | OSSAMA ETTAQAFI                             |
+| 🌐 Langue                    | Français                                    |
+| 🛠️ Outils principaux         | ![React](https://skillicons.dev/icons?i=react) ![Flask](https://skillicons.dev/icons?i=flask) ![MongoDB](https://skillicons.dev/icons?i=mongodb) <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" height="20" alt="Gemini" /> |
+| 📅 Dates de développement     | 11/04/2024 → 19/05/2024                      |
+| 📸 Captures d’écran           | [Voir dans Google Drive](https://drive.google.com/drive/folders/1aLBFt5UoC0-DMdON78erqGXDo01XEbpL?usp=sharing) |
 
-#### Table des Matières
+## 🗂 Table des matières
 
-- [Introduction](#introduction)
-- [Spécifications fonctionnelles](#spécifications-fonctionnelles)
-- [Spécifications non fonctionnelles](#spécifications-non-fonctionnelles)
-- [Conclusion](#conclusion)
+- [🔍 Introduction](#-introduction)
+- [⚙️ Spécifications fonctionnelles](#️-spécifications-fonctionnelles)
+- [🔐 Spécifications non fonctionnelles](#-spécifications-non-fonctionnelles)
+- [✅ Conclusion](#-conclusion)
 
-#### Introduction
-Ce document présente les spécifications fonctionnelles et non fonctionnelles de l'application web SantéIA. SantéIA permet aux utilisateurs d'évaluer leur santé mentale et physique via des questionnaires IA pour obtenir un diagnostic personnalisé.
+## 🔍 Introduction
 
-#### Spécifications fonctionnelles
-- **Outils Utilisés:** React, Flask, MongoDB, Gemini API.
-- **Authentification:** Inscription et connexion des utilisateurs.
-- **Questionnaires:** Générés dynamiquement, présentés convivialement via React.
-- **Analyse des Réponses:** Envoyées au backend Flask pour analyse par l'IA via Gemini.
-- **Diagnostic Personnalisé:** Retourné au frontend de manière claire avec des recommandations spécifiques.
-- **Interface Utilisateur:** Développée avec React pour une expérience intuitive.
+**SantéIA** est une application web d’évaluation de la santé mentale et physique des utilisateurs. Grâce à des questionnaires générés dynamiquement par IA, elle fournit un **diagnostic personnalisé**, accompagné de **recommandations** ciblées.
 
-#### Spécifications non fonctionnelles
-- **Confidentialité des Données:** Stockage sécurisé dans MongoDB, cryptage des données personnelles.
-- **Sécurité:** Communications HTTPS, chiffrement des données sensibles.
-- **Performances:** Évolutivité assurée par React et Flask, optimisation des temps de réponse.
-- **Extensibilité:** Architecture modulaire pour ajouter de nouvelles fonctionnalités, déploiement facile des mises à jour.
+## ⚙️ Spécifications fonctionnelles
 
-#### Conclusion
-En suivant ces spécifications, SantéIA offrira une expérience utilisateur robuste, sécurisée et efficace, répondant aux besoins d'évaluation de santé mentale et physique grâce à React, Flask, MongoDB et l'API Gemini.
+- **Frontend** développé en **React** pour une UI fluide et dynamique.
+- **Backend** en **Flask** pour gérer l'analyse et l’interaction avec l’IA.
+- **Base de données** **MongoDB** pour stocker les profils et résultats utilisateurs.
+- **API Gemini** pour la génération de questionnaires et l’analyse des réponses.
+- **Fonctionnalités clés :**
+  - Authentification : inscription et connexion sécurisées.
+  - Génération intelligente de questionnaires santé.
+  - Analyse IA des réponses via le backend Flask.
+  - Retour clair d’un **diagnostic personnalisé** avec conseils.
+  - Interface ergonomique et responsive.
+
+## 🔐 Spécifications non fonctionnelles
+
+- **Confidentialité :** Données personnelles chiffrées, stockées de manière sécurisée.
+- **Sécurité :** Communication via HTTPS, chiffrement côté serveur.
+- **Performance :** Chargement rapide, architecture optimisée React + Flask.
+- **Extensibilité :** Modules indépendants facilitant les mises à jour et évolutions futures.
+
+## ✅ Conclusion
+
+Grâce à son architecture moderne et à l'intégration de l'**IA via Gemini**, **SantéIA** offre une **expérience utilisateur complète** pour l’évaluation de la santé mentale et physique. Le projet allie **innovation**, **sécurité** et **accessibilité**, répondant aux besoins croissants en matière de santé numérique.
